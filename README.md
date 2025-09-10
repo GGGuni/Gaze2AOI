@@ -5,3 +5,11 @@ It provides simple implementations to classify gaze points into areas of interes
 1. Facial AOI classification – determines which predefined facial region (e.g., forehead, eyes, cheeks, nose, mouth, chin) a gaze point falls into.
 
 2. Stimuli classification – identifies which of two presented stimuli a gaze point is directed toward.
+
+
+
+## Pretrained Models Used
+- YOLOv8 (Ultralytics): https://github.com/ultralytics/ultralytics
+- SegFormer (NVlabs): https://huggingface.co/docs/transformers/model_doc/segformer
+- ArcFace (InsightFace): https://github.com/deepinsight/insightface
+- MediaPipe (Google): https://github.com/google-ai-edge/mediapipe
